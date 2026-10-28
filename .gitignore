@@ -1,0 +1,7 @@
+# AI model weights are downloaded by setup_check.py (too big for GitHub)
+video-pipeline/models/
+# per-project working folders (frames, mattes, previews)
+video-pipeline/*/work/
+video-pipeline/*/prev/
+*.part
+__pycache__/

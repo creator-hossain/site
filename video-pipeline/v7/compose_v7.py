@@ -23,7 +23,9 @@ PREVIEW = sys.argv[8].split(",") if len(sys.argv) > 8 and sys.argv[7] == "--prev
 FPS, SRC_FPS = 50, 25
 W, H = 720, 900
 SW, SH = 720, 1280
-BALOO = "/usr/share/fonts/truetype/bnx/BalooDa2-BN-ExtraBold.ttf"
+import os
+FONTDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fonts")   # fonts shipped in the repo (works on Windows too)
+BALOO = os.path.join(FONTDIR, "bnx", "BalooDa2-BN-ExtraBold.ttf")
 PALE = (143, 184, 209); PALE_DK = (116, 148, 183); TEAL = (60, 128, 150); BAR = (114, 177, 230)
 YEL = (236, 228, 40); WHITE = (255, 255, 255, 255)
 

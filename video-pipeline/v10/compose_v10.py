@@ -29,7 +29,9 @@ FPS, SRC_FPS = 50, 25
 W, H = 720, 1280; SW, SH = 720, 1280
 BY, BH = 190, 900                         # the sharp video band
 F8 = os.path.join(HERE, "..", "fonts8")
-BALOO = "/usr/share/fonts/truetype/bnx/BalooDa2-BN-ExtraBold.ttf"
+import os
+FONTDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fonts")   # fonts shipped in the repo (works on Windows too)
+BALOO = os.path.join(FONTDIR, "bnx", "BalooDa2-BN-ExtraBold.ttf")
 POP8, POP6 = f"{F8}/poppins-latin-800-normal.ttf", f"{F8}/poppins-latin-600-normal.ttf"
 HB6, HL6, HL5 = f"{F8}/hind-siliguri-bengali-600-normal.ttf", f"{F8}/hind-siliguri-latin-600-normal.ttf", f"{F8}/hind-siliguri-latin-500-normal.ttf"
 ICONS = os.path.join(HERE, "icons")

@@ -2,7 +2,9 @@
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import os
 W, H = 720, 1280
-BN = "/usr/share/fonts/truetype/bnx/BalooDa2-BN-ExtraBold.ttf"
+import os
+FONTDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "fonts")   # fonts shipped in the repo (works on Windows too)
+BN = os.path.join(FONTDIR, "bnx", "BalooDa2-BN-ExtraBold.ttf")
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets")
 f = lambda s: ImageFont.truetype(BN, s)
 

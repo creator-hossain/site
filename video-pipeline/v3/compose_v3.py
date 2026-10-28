@@ -22,11 +22,13 @@ PREVIEW = sys.argv[7].split(",") if len(sys.argv) > 7 and sys.argv[6] == "--prev
 
 FPS, SRC_FPS = 50, 25
 W, H = 720, 1280
-ANEK800 = "/usr/share/fonts/truetype/bnx/AnekBN.ttf"
-ANEK700 = "/usr/share/fonts/truetype/bnx/anek-bangla-bengali-700-normal.ttf"
-INTER_B = "/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf"
-INTER_M = "/usr/share/fonts/opentype/inter/Inter-Medium.otf"
-INTER_SB = "/usr/share/fonts/opentype/inter/Inter-SemiBold.otf"
+import os
+FONTDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fonts")   # fonts shipped in the repo (works on Windows too)
+ANEK800 = os.path.join(FONTDIR, "bnx", "AnekBN.ttf")
+ANEK700 = os.path.join(FONTDIR, "bnx", "anek-bangla-bengali-700-normal.ttf")
+INTER_B = os.path.join(FONTDIR, "inter", "InterDisplay-Bold.otf")
+INTER_M = os.path.join(FONTDIR, "inter", "Inter-Medium.otf")
+INTER_SB = os.path.join(FONTDIR, "inter", "Inter-SemiBold.otf")
 SX = 0.90                                  # reference Bangla ~90% of Anek's width
 
 # sampled palette

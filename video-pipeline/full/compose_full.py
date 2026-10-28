@@ -23,9 +23,11 @@ PREVIEW = sys.argv[7].split(",") if len(sys.argv) > 7 and sys.argv[6] == "--prev
 
 FPS, SRC_FPS = 50, 25
 W, H = 720, 1280
-ANEK800 = "/usr/share/fonts/truetype/bnx/AnekBN.ttf"
-ANEK700 = "/usr/share/fonts/truetype/bnx/anek-bangla-bengali-700-normal.ttf"
-INTER = "/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf"
+import os
+FONTDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fonts")   # fonts shipped in the repo (works on Windows too)
+ANEK800 = os.path.join(FONTDIR, "bnx", "AnekBN.ttf")
+ANEK700 = os.path.join(FONTDIR, "bnx", "anek-bangla-bengali-700-normal.ttf")
+INTER = os.path.join(FONTDIR, "inter", "InterDisplay-Bold.otf")
 SX = 0.87                                   # reference Bangla glyphs ~87% of Anek's width
 WHITE = (255, 255, 255, 255)
 INK = (22, 22, 22, 255)

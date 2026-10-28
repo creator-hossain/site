@@ -21,9 +21,11 @@ SRC, MAT, TRACK, WORDS, CARCUT, OUT = sys.argv[1:7]
 PREVIEW = sys.argv[8].split(",") if len(sys.argv) > 8 and sys.argv[7] == "--preview" else None
 FPS, SRC_FPS = 50, 25
 W, H = 720, 1280
-ANEK = "/usr/share/fonts/truetype/bnx/AnekBN.ttf"
-ANEK7 = "/usr/share/fonts/truetype/bnx/anek-bangla-bengali-700-normal.ttf"
-INTER = "/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf"
+import os
+FONTDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "fonts")   # fonts shipped in the repo (works on Windows too)
+ANEK = os.path.join(FONTDIR, "bnx", "AnekBN.ttf")
+ANEK7 = os.path.join(FONTDIR, "bnx", "anek-bangla-bengali-700-normal.ttf")
+INTER = os.path.join(FONTDIR, "inter", "InterDisplay-Bold.otf")
 SX = 0.92
 WHITE = (255, 255, 255, 255)
 
