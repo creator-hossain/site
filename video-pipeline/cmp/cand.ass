@@ -1,0 +1,36 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1200
+PlayResY: 974
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: S0,Baloo Da 2 ExtraBold,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,4,2,8,0,0,0,1
+Style: S1,Baloo Da 2,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,4,2,8,0,0,0,1
+Style: S2,Anek Bangla Medium ExtraBold,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,4,2,8,0,0,0,1
+Style: S3,Anek Bangla Medium,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,4,2,8,0,0,0,1
+Style: S4,Hind Siliguri,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,4,2,8,0,0,0,1
+Style: S5,Atma,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,4,2,8,0,0,0,1
+Style: S6,Mina,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,4,2,8,0,0,0,1
+Style: S7,Noto Sans Bengali,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,0,0,1,4,2,8,0,0,0,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:05.00,S0,,0,0,0,,{\pos(720,14)}মনটা চাইছে না
+Dialogue: 0,0:00:00.00,0:00:05.00,S0,,0,0,0,,{\pos(18,48)\fnDejaVu Sans\fs24\an4\bord2}Baloo Da 2 ExtraBold
+Dialogue: 0,0:00:00.00,0:00:05.00,S1,,0,0,0,,{\pos(720,132)}মনটা চাইছে না
+Dialogue: 0,0:00:00.00,0:00:05.00,S1,,0,0,0,,{\pos(18,166)\fnDejaVu Sans\fs24\an4\bord2}Baloo Da 2
+Dialogue: 0,0:00:00.00,0:00:05.00,S2,,0,0,0,,{\pos(720,250)}মনটা চাইছে না
+Dialogue: 0,0:00:00.00,0:00:05.00,S2,,0,0,0,,{\pos(18,284)\fnDejaVu Sans\fs24\an4\bord2}Anek Bangla Medium ExtraBold
+Dialogue: 0,0:00:00.00,0:00:05.00,S3,,0,0,0,,{\pos(720,368)}মনটা চাইছে না
+Dialogue: 0,0:00:00.00,0:00:05.00,S3,,0,0,0,,{\pos(18,402)\fnDejaVu Sans\fs24\an4\bord2}Anek Bangla Medium
+Dialogue: 0,0:00:00.00,0:00:05.00,S4,,0,0,0,,{\pos(720,486)}মনটা চাইছে না
+Dialogue: 0,0:00:00.00,0:00:05.00,S4,,0,0,0,,{\pos(18,520)\fnDejaVu Sans\fs24\an4\bord2}Hind Siliguri
+Dialogue: 0,0:00:00.00,0:00:05.00,S5,,0,0,0,,{\pos(720,604)}মনটা চাইছে না
+Dialogue: 0,0:00:00.00,0:00:05.00,S5,,0,0,0,,{\pos(18,638)\fnDejaVu Sans\fs24\an4\bord2}Atma
+Dialogue: 0,0:00:00.00,0:00:05.00,S6,,0,0,0,,{\pos(720,722)}মনটা চাইছে না
+Dialogue: 0,0:00:00.00,0:00:05.00,S6,,0,0,0,,{\pos(18,756)\fnDejaVu Sans\fs24\an4\bord2}Mina
+Dialogue: 0,0:00:00.00,0:00:05.00,S7,,0,0,0,,{\pos(720,840)}মনটা চাইছে না
+Dialogue: 0,0:00:00.00,0:00:05.00,S7,,0,0,0,,{\pos(18,874)\fnDejaVu Sans\fs24\an4\bord2}Noto Sans Bengali

@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Top,BalooBN,62,&H00FFFFFF,&H00FFFFFF,&H00441A04,&H00000000,0,0,0,0,100,100,0,0,1,4,0,5,0,0,0,1
+Style: Ext,BalooBN,62,&H006E280A,&H006E280A,&H006E280A,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+Style: Ext2,BalooBN,44,&H006E280A,&H006E280A,&H006E280A,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+Style: Sub,BalooBN,44,&H00FFFFFF,&H00FFFFFF,&H00441A04,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,0,0,0,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.15,0:00:03.00,Ext,,0,0,0,,{\an5\pos(366,140)\frz0\org(360,128)\fscx62\fscy62\fax0.22\alpha&HFF&\t(0,240,0.5,\fscx100\fscy100\fax0\alpha&H00&)}এক নজরে
+Dialogue: 1,0:00:00.15,0:00:03.00,Ext,,0,0,0,,{\an5\pos(365,138)\frz0\org(360,128)\fscx62\fscy62\fax0.22\alpha&HFF&\t(0,240,0.5,\fscx100\fscy100\fax0\alpha&H00&)}এক নজরে
+Dialogue: 2,0:00:00.15,0:00:03.00,Ext,,0,0,0,,{\an5\pos(364,136)\frz0\org(360,128)\fscx62\fscy62\fax0.22\alpha&HFF&\t(0,240,0.5,\fscx100\fscy100\fax0\alpha&H00&)}এক নজরে
+Dialogue: 3,0:00:00.15,0:00:03.00,Ext,,0,0,0,,{\an5\pos(363,134)\frz0\org(360,128)\fscx62\fscy62\fax0.22\alpha&HFF&\t(0,240,0.5,\fscx100\fscy100\fax0\alpha&H00&)}এক নজরে
+Dialogue: 4,0:00:00.15,0:00:03.00,Ext,,0,0,0,,{\an5\pos(362,132)\frz0\org(360,128)\fscx62\fscy62\fax0.22\alpha&HFF&\t(0,240,0.5,\fscx100\fscy100\fax0\alpha&H00&)}এক নজরে
+Dialogue: 5,0:00:00.15,0:00:03.00,Ext,,0,0,0,,{\an5\pos(361,130)\frz0\org(360,128)\fscx62\fscy62\fax0.22\alpha&HFF&\t(0,240,0.5,\fscx100\fscy100\fax0\alpha&H00&)}এক নজরে
+Dialogue: 7,0:00:00.15,0:00:03.00,Top,,0,0,0,,{\an5\pos(360,128)\frz0\org(360,128)\fscx62\fscy62\fax0.22\alpha&HFF&\t(0,240,0.5,\fscx100\fscy100\fax0\alpha&H00&)}এক নজরে

@@ -1,0 +1,113 @@
+[
+{
+"sound": "music",
+"t": 0.0,
+"gain": 0.0,
+"dur": 41.76
+},
+{
+"sound": "swish",
+"t": 5.58,
+"gain": 0.0
+},
+{
+"sound": "pop",
+"t": 7.6,
+"gain": 0.0
+},
+{
+"sound": "ding",
+"t": 12.96,
+"gain": 0.0
+},
+{
+"sound": "tick",
+"t": 15.4,
+"gain": 0.0
+},
+{
+"sound": "lowwhoosh",
+"t": 17.12,
+"gain": 0.0
+},
+{
+"sound": "tick",
+"t": 23.8,
+"gain": 0.0
+},
+{
+"sound": "pop",
+"t": 23.92,
+"gain": 0.0
+},
+{
+"sound": "lowwhoosh",
+"t": 24.8,
+"gain": -2
+},
+{
+"sound": "pop",
+"t": 25.093,
+"gain": -3
+},
+{
+"sound": "pop",
+"t": 26.09,
+"gain": -3
+},
+{
+"sound": "pop",
+"t": 27.213,
+"gain": -3
+},
+{
+"sound": "pop",
+"t": 28.01,
+"gain": -3
+},
+{
+"sound": "pop",
+"t": 28.79,
+"gain": -3
+},
+{
+"sound": "pop",
+"t": 29.83,
+"gain": -3
+},
+{
+"sound": "tick",
+"t": 31.64,
+"gain": 0.0
+},
+{
+"sound": "count",
+"t": 32.728,
+"gain": 0.0
+},
+{
+"sound": "swell",
+"t": 34.232,
+"gain": 0.0
+},
+{
+"sound": "impact",
+"t": 35.68,
+"gain": 0.0
+},
+{
+"sound": "swell",
+"t": 37.488,
+"gain": 0.0
+},
+{
+"sound": "swell",
+"t": 39.278,
+"gain": 0.0
+},
+{
+"sound": "swell",
+"t": 40.199,
+"gain": 0.0
+}
+]

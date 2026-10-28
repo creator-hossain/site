@@ -1,0 +1,37 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1024
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Big,Noto Sans Bengali,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,5,3,8,0,0,0,1
+Style: Small,Noto Sans Bengali,36,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,-1,0,0,0,100,100,0,0,1,3,2,8,0,0,0,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 1,0:00:00.15,0:00:00.38,Big,,0,0,0,,{\pos(512,125)}{\fscx118\fscy118\t(0,130,\fscx100\fscy100)}সারাদিন{\r}
+Dialogue: 1,0:00:00.38,0:00:00.58,Big,,0,0,0,,{\pos(512,125)}সারাদিন {\fscx118\fscy118\t(0,130,\fscx100\fscy100)}অফিস{\r}
+Dialogue: 1,0:00:00.58,0:00:00.95,Big,,0,0,0,,{\pos(512,125)}সারাদিন অফিস {\fscx118\fscy118\t(0,130,\fscx100\fscy100)}করে{\r}
+Dialogue: 1,0:00:00.95,0:00:01.25,Big,,0,0,0,,{\pos(512,125)}সারাদিন অফিস করে\N{\fscx118\fscy118\t(0,130,\fscx100\fscy100)}বাসায়{\r}
+Dialogue: 1,0:00:01.25,0:00:02.18,Big,,0,0,0,,{\pos(512,125)}সারাদিন অফিস করে\Nবাসায় {\fscx118\fscy118\t(0,130,\fscx100\fscy100)}গিয়েছেন{\r}
+Dialogue: 0,0:00:02.20,0:00:02.35,Small,,0,0,0,,{\pos(512,96)\alpha&H55&}সারাদিন অফিস করে বাসায় গিয়েছেন
+Dialogue: 1,0:00:02.20,0:00:02.35,Big,,0,0,0,,{\pos(512,155)}{\fscx118\fscy118\t(0,130,\fscx100\fscy100)}এখন{\r}
+Dialogue: 0,0:00:02.35,0:00:02.52,Small,,0,0,0,,{\pos(512,96)\alpha&H55&}সারাদিন অফিস করে বাসায় গিয়েছেন
+Dialogue: 1,0:00:02.35,0:00:02.52,Big,,0,0,0,,{\pos(512,155)}এখন {\fscx118\fscy118\t(0,130,\fscx100\fscy100)}আর{\r}
+Dialogue: 0,0:00:02.52,0:00:02.68,Small,,0,0,0,,{\pos(512,96)\alpha&H55&}সারাদিন অফিস করে বাসায় গিয়েছেন
+Dialogue: 1,0:00:02.52,0:00:02.68,Big,,0,0,0,,{\pos(512,155)}এখন আর\N{\fscx118\fscy118\t(0,130,\fscx100\fscy100)}মনটা{\r}
+Dialogue: 0,0:00:02.68,0:00:02.84,Small,,0,0,0,,{\pos(512,96)\alpha&H55&}সারাদিন অফিস করে বাসায় গিয়েছেন
+Dialogue: 1,0:00:02.68,0:00:02.84,Big,,0,0,0,,{\pos(512,155)}এখন আর\Nমনটা {\fscx118\fscy118\t(0,130,\fscx100\fscy100)}চাইছে{\r}
+Dialogue: 0,0:00:02.84,0:00:03.12,Small,,0,0,0,,{\pos(512,96)\alpha&H55&}সারাদিন অফিস করে বাসায় গিয়েছেন
+Dialogue: 1,0:00:02.84,0:00:03.12,Big,,0,0,0,,{\pos(512,155)}এখন আর\Nমনটা চাইছে {\fscx118\fscy118\t(0,130,\fscx100\fscy100)}না{\r}
+Dialogue: 0,0:00:03.15,0:00:04.05,Small,,0,0,0,,{\pos(512,96)\alpha&H55&}এখন আর মনটা চাইছে না
+Dialogue: 1,0:00:03.15,0:00:04.05,Big,,0,0,0,,{\pos(512,165)}{\fscx118\fscy118\c&H0000C8FF\t(0,130,\fscx100\fscy100)}আয়োজন{\r}
+Dialogue: 0,0:00:04.10,0:00:04.40,Small,,0,0,0,,{\pos(512,96)\alpha&H55&}এখন আর মনটা চাইছে না আয়োজন করে
+Dialogue: 1,0:00:04.10,0:00:04.40,Big,,0,0,0,,{\pos(512,165)}{\fscx118\fscy118\t(0,130,\fscx100\fscy100)}রান্না{\r}
+Dialogue: 0,0:00:04.40,0:00:04.62,Small,,0,0,0,,{\pos(512,96)\alpha&H55&}এখন আর মনটা চাইছে না আয়োজন করে
+Dialogue: 1,0:00:04.40,0:00:04.62,Big,,0,0,0,,{\pos(512,165)}রান্না {\fscx118\fscy118\t(0,130,\fscx100\fscy100)}বান্না{\r}
+Dialogue: 0,0:00:04.62,0:00:05.83,Small,,0,0,0,,{\pos(512,96)\alpha&H55&}এখন আর মনটা চাইছে না আয়োজন করে
+Dialogue: 1,0:00:04.62,0:00:05.83,Big,,0,0,0,,{\pos(512,165)}রান্না বান্না {\fscx118\fscy118\t(0,130,\fscx100\fscy100)}করতে{\r}

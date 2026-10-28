@@ -1,0 +1,17 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 720
+PlayResY: 1280
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: B,BalooBN,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,0,0,0,0,100,100,0,0,1,4,3,5,0,0,0,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:05.00,B,,0,0,0,,{\pos(360,140)\an5}আমাদের চিটাগাং {\frz-14\fscx70\fscy70}রেডি{\r}
+Dialogue: 0,0:00:00.00,0:00:05.00,B,,0,0,0,,{\pos(360,290)\an5}আমাদের চিটাগাং {\fax0.3\fscx70\fscy70}রেডি{\r}
+Dialogue: 0,0:00:00.00,0:00:05.00,B,,0,0,0,,{\pos(360,440)\an5}আমাদের চিটাগাং {\fscx70\fscy70}রেডি{\r}
+Dialogue: 0,0:00:00.00,0:00:05.00,B,,0,0,0,,{\pos(360,590)\an5}আমাদের চিটাগাং রেডি
